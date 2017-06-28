@@ -1,5 +1,5 @@
 FROM ubuntu:14.04 
-2 MAINTAINER Docker Education Team <education@docker.com> 
+2 MAINTAINER Docker Education Team <ed@docker.com> 
 3 RUN apt-get update 
 4 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -q python-all python-pip  
 5 ADD ./webapp/requirements.txt /tmp/requirements.txt 
